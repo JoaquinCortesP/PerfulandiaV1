@@ -7,5 +7,5 @@ import com.perfulandia.inventario.model.Producto;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long> {
-    // Aquí podrías agregar consultas personalizadas si las necesitas después
+    
 }

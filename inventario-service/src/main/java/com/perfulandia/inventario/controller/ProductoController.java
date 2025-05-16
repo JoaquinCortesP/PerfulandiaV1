@@ -47,7 +47,7 @@ public class ProductoController {
         return productoRepository.save(producto);
     }
 
-    // Actualizar producto existente
+    // Actualizar producto 
     @PutMapping("/{id}")
     public ResponseEntity<Producto> actualizarProducto(@PathVariable Long id, @RequestBody Producto productoDetalles) {
         Optional<Producto> productoOptional = productoRepository.findById(id);
@@ -65,7 +65,7 @@ public class ProductoController {
         return ResponseEntity.ok(productoActualizado);
     }
 
-    // Eliminar producto por id
+    // Eliminar producto
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminarProducto(@PathVariable Long id) {
         Optional<Producto> productoOptional = productoRepository.findById(id);
