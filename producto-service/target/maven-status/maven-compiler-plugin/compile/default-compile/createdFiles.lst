@@ -1,0 +1,8 @@
+com\perfulandia\producto_service\model\Producto$ProductoBuilder.class
+com\perfulandia\producto_service\model\Producto.class
+com\perfulandia\producto_service\hateoas\ProductoModelAssembler.class
+com\perfulandia\producto_service\controller\ProductoController.class
+com\perfulandia\producto_service\ProductoServiceApplication.class
+com\perfulandia\producto_service\service\ProductoServiceImpl.class
+com\perfulandia\producto_service\repository\ProductoRepository.class
+com\perfulandia\producto_service\service\ProductoService.class
